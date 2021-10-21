@@ -1,0 +1,40 @@
+{
+    "name": "chattervast/jsond",
+    "description": "Adds Twig filters for working with json.",
+    "type": "craft-plugin",
+    "version": "1.05",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "jsond"
+    ],
+    "support": {
+        "docs": "https://github.com/chattervast/jsond/blob/master/README.md",
+        "issues": "https://github.com/chattervast/jsond/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chattervast",
+            "homepage": "https://github.com/chattervast"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "chattervast\\jsond\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Json'd",
+        "handle": "jsond",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/chattervast/jsond/master/CHANGELOG.md",
+        "class": "chattervast\\jsond\\Jsond"
+    }
+}
